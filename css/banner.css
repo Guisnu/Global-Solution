@@ -1,0 +1,26 @@
+#banner .container {
+  background-color: #a8d1d2;
+  height: 370px;
+  width: 100vw;
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 5%,rgba(42, 150, 152, 1) 100%,rgba(0, 212, 255, 1) 100%); */
+  background-image: url(../img/waves.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  & div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  & p {
+    padding-top: 10px;
+    text-align: center;
+    color: whitesmoke;
+  }
+}
+iframe {
+  border-radius: 5px;
+}

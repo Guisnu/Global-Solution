@@ -1,0 +1,39 @@
+@import url(header.css);
+@import url(banner.css);
+
+:root {
+  --cor-escura: #000000;
+  --cor-cinza: #b3b3b3;
+  --cor-azul: #2a9698;
+  --fonte-padrão: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--fonte-padrão);
+  font-size: 16px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 25px;
+  width: 950px;
+  margin-bottom:20px;
+}
+main .container{
+  display: flex;
+  gap: 20px;
+  text-align: justify;
+
+  & div{
+    width: 50%;
+
+    & img{
+      height: 350px;
+      border-radius: 10px;
+    }
+  }
+}
