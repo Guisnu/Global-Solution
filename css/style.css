@@ -26,9 +26,19 @@ body {
   margin-bottom:20px;
 }
 
-main{
-  width: 100%;
-  height: 600px;
+main .container{
+  display: flex;
+  gap: 20px;
 }
 
+.img-main{
+  width: 350px;
+  height: 350px;
+}
 
+.text-main{
+  width: 350px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-align: left;
+}
