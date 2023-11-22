@@ -1,7 +1,7 @@
 #banner .container {
   background-color: #a8d1d2;
   height: 370px;
-  width: 100vw;
+  width: 100%;
   /* background: rgb(2, 0, 36);
   background: linear-gradient(90deg,rgba(2, 0, 36, 1) 5%,rgba(42, 150, 152, 1) 100%,rgba(0, 212, 255, 1) 100%); */
   background-image: url(../img/waves.png);
