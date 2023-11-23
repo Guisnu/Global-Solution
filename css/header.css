@@ -6,6 +6,11 @@ header {
   align-items: center;
   background-color: whitesmoke;
   position: sticky;
+
+  & img{
+    width: 60px;
+    margin-right: 50px;
+  }
 }
 nav {
   display: flex;
@@ -25,7 +30,7 @@ nav {
       height: 19px;
       transition: 0.3s;
 
-      &:hover{
+      &:hover {
         scale: 1.1;
       }
 
@@ -38,7 +43,7 @@ nav {
         font-weight: bold;
         transition: 0.3s;
 
-        &:hover{
+        &:hover {
           color: var(--cor-escura);
           text-decoration: none;
         }

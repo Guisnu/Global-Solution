@@ -2,10 +2,12 @@
 @import url(banner.css);
 
 :root {
-  --cor-escura: #000000;
+  --cor-escura: #1d1f22;
   --cor-cinza: #b3b3b3;
   --cor-azul: #2a9698;
-  --fonte-padrão: Arial, Helvetica, sans-serif;
+  --cor-verde: #046952;
+  --fonte-Roboto: "Roboto", sans-serif;
+  --fonte-Raleway: "Raleway", sans-serif;
 }
 
 * {
@@ -15,30 +17,47 @@
 }
 
 body {
-  font-family: var(--fonte-padrão);
+  font-family: var(--fonte-Roboto);
+  background-color: var(--cor-escura);
   font-size: 16px;
 }
 
 .container {
   margin: 0 auto;
-  padding: 0 25px;
-  width: 1200px;
-  margin-bottom:20px;
+  padding: 0 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-main .container{
-  display: flex;
-  gap: 20px;
+#title {
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    gap: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+
+    & h1 {
+      letter-spacing: 2px;
+      line-height: 1.2;
+      font-size: 3rem;
+      font-family: var(--fonte-Raleway);
+      color: var(--cor-azul);
+    }
+
+    & p {
+      color: var(--cor-cinza);
+    }
+  }
 }
 
-.img-main{
-  width: 350px;
-  height: 350px;
-}
-
-.text-main{
-  width: 350px;
-  letter-spacing: 1px;
-  text-align: center;
-  text-align: left;
+#neura {
+  background-image: url(../img/neuralink.webp);
+  background-position: 85%;
+  background-size: 25%;
+  background-repeat: no-repeat;
 }
