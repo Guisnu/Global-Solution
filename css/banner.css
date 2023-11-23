@@ -1,11 +1,33 @@
 #banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & button{
+    height: 50px;
+    width: 300px;
+    background-color: var(--cor-escura);
+    border: solid 1px whitesmoke;
+    color: whitesmoke;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: var(--fonte-Raleway);
+    transition: 0.5s;
+
+    &:hover {
+      background-color: whitesmoke;
+      color: var(--cor-escura);
+      font-weight: bolder;
+      cursor: pointer;
+    }
+  }
+
   & > div {
     display: flex;
     flex-direction: column;
     height: 370px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   & p {
