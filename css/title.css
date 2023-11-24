@@ -2,7 +2,7 @@
     background-image: url(../img/medico.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: center;
   
     & > div {
       display: flex;
