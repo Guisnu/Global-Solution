@@ -31,6 +31,7 @@ body {
   width: 100%;
   margin-bottom: 20px;
 }
+
 #cards{
   display: flex;
   height: 350px;
