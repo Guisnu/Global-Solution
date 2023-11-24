@@ -18,8 +18,8 @@
 
 body {
   font-family: var(--fonte-Roboto);
-  background-color: var(--cor-escura);
   font-size: 16px;
+  background-color: whitesmoke;
 }
 
 .container {
@@ -31,6 +31,11 @@ body {
 }
 
 #title {
+  background-image: url(../img/medico.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+
   & > div {
     display: flex;
     flex-direction: column;
@@ -49,15 +54,7 @@ body {
       color: var(--cor-azul);
     }
 
-    & p {
-      color: var(--cor-cinza);
-    }
   }
 }
 
-#neura {
-  background-image: url(../img/neuralink.webp);
-  background-position: 85%;
-  background-size: 28%;
-  background-repeat: no-repeat;
-}
+
