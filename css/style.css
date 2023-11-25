@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(banner.css);
 @import url(title.css);
+@import url(cards.css);
 
 :root {
   --cor-escura: #1d1f22;
@@ -32,28 +33,27 @@ body {
   margin-bottom: 20px;
 }
 
-#cards{
-  display: flex;
-  height: 350px;
-  justify-content: center;
-  align-items: center;
+#quem-somos{
 
   & .container{
-    display: flex;
-    justify-content: space-around;
 
-    & .card{
-      width: 250px;
+    & .quem-somos-content{
       display: flex;
+      justify-content: center;
       align-items: center;
-      flex-direction: column;
-      text-align: center;
-      letter-spacing: 1px;
-      
-
-      & img {
-        width: 50%;
-      }
-    }
+      gap: 20px;
+      margin: 20px 0px;
   }
+
+  & h2{
+    font-size: 2.18rem;
+  }
+
+  }
+
+
+
 }
+
+
+

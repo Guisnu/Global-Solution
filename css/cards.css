@@ -1,0 +1,25 @@
+#cards{
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+  
+    & .container{
+      display: flex;
+      justify-content: space-around;
+  
+      & .card{
+        width: 250px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        letter-spacing: 1px;
+        
+  
+        & img {
+          width: 50%;
+        }
+      }
+    }
+  }
