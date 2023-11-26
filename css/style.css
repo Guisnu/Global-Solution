@@ -3,6 +3,7 @@
 @import url(banner.css);
 @import url(title.css);
 @import url(cards.css);
+@import url(quem-somos.css);
 
 :root {
   --cor-escura: #1d1f22;
@@ -22,7 +23,7 @@
 body {
   font-family: var(--fonte-Roboto);
   font-size: 16px;
-  background-color: whitesmoke;
+  background-color: rgb(228, 228, 228);
 }
 
 .container {
@@ -33,22 +34,35 @@ body {
   margin-bottom: 20px;
 }
 
-#quem-somos{
+#Prontuario{
 
   & .container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
 
-    & .quem-somos-content{
+    & h2 {
+      font-size: 2.18rem;
+      color: var(--cor-azul);
+    }
+
+    & .prontuario-content{
       display: flex;
-      justify-content: center;
       align-items: center;
+      justify-content: center;
       gap: 20px;
-      margin: 20px 0px;
-  }
 
-  & h2{
-    font-size: 2.18rem;
-    color: var(--cor-azul);
-  }
+      & .Prontuario-text{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+        gap: 20px;
+      }
+    }
 
   }
 }
