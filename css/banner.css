@@ -13,12 +13,12 @@
 
   & p {
     text-align: center;
+    padding: 10px;
   }
 }
 
 iframe {
   border-radius: 5px;
-  margin: 10px;
 }
 #banner-and-title{
   height: 85vh;
