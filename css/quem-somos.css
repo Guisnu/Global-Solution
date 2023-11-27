@@ -1,4 +1,7 @@
 #quem-somos{
+  background-color: #f7f2f2;
+    padding: 50px;
+
     & .container{
   
       & .quem-somos-content{

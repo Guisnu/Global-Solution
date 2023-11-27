@@ -11,18 +11,24 @@
   </head>
   <body>
     <header>
-        <nav>
-          <img src="img/fiap.png" alt="" srcset="">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/mortinfantil.html">Mortalidade Infantil</a></li>
-            <li><a href="pages/combatdoenca.html">Combate a doenças</a></li>
-            <li><a href="pages/prevencaodoenca.html">Prevenção e tratamento de doenças</a></li>
-            <li><a href="pages/melhoriageral.html">Melhoria Geral da Saúde</a></li>
-          </ul>
-        </nav>
+      <nav>
+        <img src="img/fiap.png" alt="" srcset="" />
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/mortinfantil.html">Mortalidade Infantil</a></li>
+          <li><a href="pages/combatdoenca.html">Combate a doenças</a></li>
+          <li>
+            <a href="pages/prevencaodoenca.html"
+              >Prevenção e tratamento de doenças</a
+            >
+          </li>
+          <li>
+            <a href="pages/melhoriageral.html">Melhoria Geral da Saúde</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <div class="container">
+    <div class="container" id="banner-and-title">
       <section id="title">
         <div>
           <h1>Cuidados em casa connect</h1>
@@ -31,98 +37,109 @@
             real, registros detalhados, eficiência e segurança para
             profissionais e pacientes.
           </p>
+          <div class="buttons">
+            <button type="button" id="toggle">Veja Mais</button>
+            <button type="button" id="pitch">Video Pitch</button>
+          </div>
         </div>
       </section>
-      <section id="banner">
+      <section id="banner" style="display: none">
         <div>
           <p>Guilherme RM:0000, Pedrão RM:0000, Inaba RM:0000, Lucão RM:0000</p>
-          <img src="https://via.placeholder.com/560x315" alt="" />
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/v8Fy0RAX2yU?si=v-SRyzrFJKW1GcTM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
-        <button type="button" id="toggle" >Veja Mais</button>
       </section>
     </div>
-    <main style="display: none;" id="content">
-    <section id="cards">
-      <div class="container">
-        <div class="card">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/8571/8571421.png"
-            alt=""
-          />
-          <p>
-            Check-in/out eficiente e em tempo real para profissionais de saúde.
-          </p>
-        </div>
-        <div class="card">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/8571/8571424.png"
-            alt=""
-          />
-          <p>
-            Registros detalhados de atividades e prontuários eletrônicos
-            integrados.
-          </p>
-        </div>
-        <div class="card">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/8571/8571427.png"
-            alt=""
-          />
-          <p>Eficiência operacional com redução de atrasos e ausências.</p>
-        </div>
-        <div class="card">
-          <img
-            src="https://cdn-icons-png.flaticon.com/128/8571/8571430.png"
-            alt=""
-          />
-          <p>
-            Garantia de privacidade e transparência, aprimorando a qualidade dos
-            cuidados domiciliares.
-          </p>
-        </div>
-      </div>
-    </section>
-    <section id="quem-somos">
-      <div class="container">
-        <h2>Quem somos</h2>
-        <div class="quem-somos-content">
-          <img src="https://via.placeholder.com/100x100" alt="">
-          <div class="quem-somos-text">
-          <h3>Nosso Time</h3>
-          <p>Somos uma equipe de cinco estudantes de engenharia de software dedicados a
-            criar um aplicativo inovador na área da saúde. Com especialistas em front-end,
-            back-end, integrações, análise de dados e gerenciamento de projeto, buscamos
-            impactar positivamente a acessibilidade e qualidade dos serviços de saúde.
+    <main style="display: none" id="content">
+      <section id="cards">
+        <div class="container">
+          <div class="card">
+            <img src="img/numero1.png" alt="" />
+            <p>
+              Check-in/out eficiente e em tempo real para profissionais de
+              saúde.
+            </p>
+          </div>
+          <div class="card">
+            <img src="img/numero2.png" alt="" />
+            <p>
+              Registros detalhados de atividades e prontuários eletrônicos
+              integrados.
+            </p>
+          </div>
+          <div class="card">
+            <img src="img/numero3.png" alt="" />
+            <p>Eficiência operacional com redução de atrasos e ausências.</p>
+          </div>
+          <div class="card">
+            <img src="img/numero4.png" alt="" />
+            <p>
+              Garantia de privacidade e transparência, aprimorando a qualidade
+              dos cuidados domiciliares.
             </p>
           </div>
         </div>
-        <div class="quem-somos-content">
-          <img src="https://via.placeholder.com/100x100" alt="">
-          <div class="quem-somos-text">
-          <h3>Nossas Instalações</h3>
-          <p>O aplicativo "Cuidados em Casa Connect" visa revolucionar a gestão de cuidados
-            domiciliares, proporcionando eficiência operacional, transparência e qualidade
-            nos serviços de saúde, garantindo uma experiência segura e integrada para
-            profissionais e pacientes</p>
+      </section>
+      <section id="quem-somos">
+        <div class="container">
+          <h2>Quem somos</h2>
+          <div class="quem-somos-content">
+            <img src="https://via.placeholder.com/100x100" alt="" />
+            <div class="quem-somos-text">
+              <h3>Nosso Time</h3>
+              <p>
+                Somos uma equipe de cinco estudantes de engenharia de software
+                dedicados a criar um aplicativo inovador na área da saúde. Com
+                especialistas em front-end, back-end, integrações, análise de
+                dados e gerenciamento de projeto, buscamos impactar
+                positivamente a acessibilidade e qualidade dos serviços de
+                saúde.
+              </p>
+            </div>
+          </div>
+          <div class="quem-somos-content">
+            <img src="https://via.placeholder.com/100x100" alt="" />
+            <div class="quem-somos-text">
+              <h3>Nossas Instalações</h3>
+              <p>
+                O aplicativo "Cuidados em Casa Connect" visa revolucionar a
+                gestão de cuidados domiciliares, proporcionando eficiência
+                operacional, transparência e qualidade nos serviços de saúde,
+                garantindo uma experiência segura e integrada para profissionais
+                e pacientes
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <section id="Prontuario">
-      <div class="container">
-        <h2>Prontuário<br>Eletrônico</h2>
-        <div class="prontuario-content">
-          <div class="Prontuario-text">
-          <img src="https://via.placeholder.com/250x250" alt="">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, voluptates illo? Alias quod in quis, sequi repellat dolorem labore corporis laboriosam minus ex ipsum aliquam voluptatibus fugiat libero vel illum.</p>
+      </section>
+      <section id="Prontuario">
+        <div class="container">
+          <h2>Prontuário Eletrônico</h2>
+          <div class="prontuario-content">
+            <div class="Prontuario-text">
+              <p>
+                A integração do prontuário médico no aplicativo não apenas
+                aprimora o registro de atividades, mas também possibilita uma
+                gestão mais eficiente de medicamentos, contribuindo para a
+                economia e evitando desperdícios.
+              </p>
+              <img src="img/medico-notebook.png" alt="" />
+            </div>
+            <div class="Prontuario-text">
+              <img src="img/conversa-medico.png" alt="" />
+              <p>
+                Esta integração não só melhora a qualidade do atendimento, mas
+                também gera uma economia significativa ao otimizar o uso de
+                medicamentos e recursos médicos. Além disso, a gestão
+                centralizada online permite que empresas coordenem todos os
+                atendimentos de forma eficaz, eliminando barreiras geográficas e
+                simplificando a administração de cuidados domiciliares de um
+                único local.
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="Prontuario-text">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet, voluptates illo? Alias quod in quis, sequi repellat dolorem labore corporis laboriosam minus ex ipsum aliquam voluptatibus fugiat libero vel illum.</p>
-          <img src="https://via.placeholder.com/250x250" alt="">
-        </div>
-        </div>
-      </div>
-    </section>
+      </section>
     </main>
     <script src="main.js"></script>
   </body>

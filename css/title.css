@@ -1,26 +1,52 @@
 #title {
-    background-image: url(../img/medico.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+      display: flex;
   
     & > div {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: center;
       height: 350px;
-      gap: 10px;
+      max-width: 500px;
+      gap: 20px;
       margin-bottom: 0px;
-      text-align: center;
   
       & h1 {
         letter-spacing: 2px;
-        text-shadow: 1px 1px 1px black;
         line-height: 1.2;
         font-size: 3rem;
         font-family: var(--fonte-Raleway);
+        text-align: left;
         color: var(--cor-azul);
       }
+
+      & p {
+        font-weight: bold;
+      }
+
+      & button{
+        height: 50px;
+        width: 300px;
+        background-color: var(--cor-escura);
+        border: solid 1px whitesmoke;
+        color: whitesmoke;
+        font-size: 18px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        font-family: var(--fonte-Raleway);
+        transition: 0.5s;
+    
+        &:hover {
+          background-color: whitesmoke;
+          color: var(--cor-escura);
+          font-weight: bolder;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .buttons{
+      display: flex;
+      gap: 10px;
     }
   }
+

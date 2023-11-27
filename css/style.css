@@ -8,7 +8,7 @@
 :root {
   --cor-escura: #1d1f22;
   --cor-cinza: #b3b3b3;
-  --cor-azul: #2a9698;
+  --cor-azul: #0452bb;
   --cor-verde: #046952;
   --fonte-Roboto: "Roboto", sans-serif;
   --fonte-Raleway: "Raleway", sans-serif;
@@ -23,7 +23,7 @@
 body {
   font-family: var(--fonte-Roboto);
   font-size: 16px;
-  background-color: rgb(228, 228, 228);
+  background-color: #b0c5ff;
 }
 
 .container {
@@ -35,7 +35,8 @@ body {
 }
 
 #Prontuario{
-
+  padding: 10px;
+  
   & .container{
     display: flex;
     flex-direction: column;
@@ -60,7 +61,7 @@ body {
         align-items: center;
         justify-content: center;
         text-align: justify;
-        gap: 20px;
+        font-weight: bold;
       }
     }
 

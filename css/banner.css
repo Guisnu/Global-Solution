@@ -1,32 +1,13 @@
 #banner {
-  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-
-  & button{
-    height: 50px;
-    width: 300px;
-    background-color: var(--cor-escura);
-    border: solid 1px whitesmoke;
-    color: whitesmoke;
-    font-size: 18px;
-    letter-spacing: 2px;
-    font-weight: bolder;
-    font-family: var(--fonte-Raleway);
-    transition: 0.5s;
-
-    &:hover {
-      background-color: whitesmoke;
-      color: var(--cor-escura);
-      font-weight: bolder;
-      cursor: pointer;
-    }
-  }
+  align-items: start;
 
   & > div {
     display: flex;
     flex-direction: column;
+    justify-content: right;
+    align-items: left;
     height: 370px;
   }
 
@@ -38,4 +19,15 @@
 iframe {
   border-radius: 5px;
   margin: 10px;
+}
+#banner-and-title{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(../img/simplistic-online-doctor-appointment-in-health-app.gif);
+  background-position: 85%;
+  background-repeat: no-repeat;
+  background-size: 500px;
 }
