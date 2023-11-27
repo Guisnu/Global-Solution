@@ -1,0 +1,36 @@
+#Prontuario{
+    padding: 10px;
+    background-color: var(--cor-azul);
+    
+    & .container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      gap: 20px;
+  
+      & h2 {
+        font-size: 2.18rem;
+        color: var(--cor-laranja);
+      }
+  
+      & .prontuario-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+  
+        & .Prontuario-text{
+          width: 35%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          text-align: justify;
+          font-weight: bold;
+          letter-spacing: 1px;
+          color: white;
+        }
+      }
+  
+    }
+  }

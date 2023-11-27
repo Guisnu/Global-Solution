@@ -21,7 +21,7 @@ iframe {
   border-radius: 5px;
 }
 #banner-and-title{
-  height: 85vh;
+  height: 78vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

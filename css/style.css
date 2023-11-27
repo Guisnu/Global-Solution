@@ -4,6 +4,8 @@
 @import url(title.css);
 @import url(cards.css);
 @import url(quem-somos.css);
+@import url(prontuario.css);
+@import url(footer.css);
 
 :root {
   --cor-escura: #1d1f22;
@@ -23,7 +25,6 @@
 body {
   font-family: var(--fonte-Roboto);
   font-size: 16px;
-  /* background-color: #b0c5ff; */
   background-color: #f7f2f2;
 }
 
@@ -33,38 +34,4 @@ body {
   max-width: 1200px;
   width: 100%;
   margin-bottom: 20px;
-}
-
-#Prontuario{
-  padding: 10px;
-  
-  & .container{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
-
-    & h2 {
-      font-size: 2.18rem;
-      color: var(--cor-laranja);
-    }
-
-    & .prontuario-content{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 20px;
-
-      & .Prontuario-text{
-        width: 35%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: justify;
-        font-weight: bold;
-      }
-    }
-
-  }
 }
