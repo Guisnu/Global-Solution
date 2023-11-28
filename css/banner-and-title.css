@@ -1,0 +1,85 @@
+#banner {
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: left;
+    height: 370px;
+  }
+
+  & p {
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+iframe {
+  border-radius: 5px;
+}
+#banner-and-title{
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url(../img/simplistic-online-doctor-appointment-in-health-app.gif);
+  background-position: 85%;
+  background-repeat: no-repeat;
+  background-size: 500px;
+}
+
+#title {
+  display: flex;
+
+& > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 350px;
+  max-width: 500px;
+  gap: 20px;
+  margin-bottom: 0px;
+
+  & h1 {
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-size: 3rem;
+    font-family: var(--fonte-Raleway);
+    text-align: left;
+    color: var(--cor-azul);
+  }
+
+  & p {
+    font-weight: bold;
+  }
+
+  & button{
+    height: 50px;
+    width: 300px;
+    background-color: var(--cor-escura);
+    border: solid 1px whitesmoke;
+    color: whitesmoke;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-family: var(--fonte-Raleway);
+    transition: 0.5s;
+
+    &:hover {
+      background-color: whitesmoke;
+      color: var(--cor-escura);
+      font-weight: bolder;
+      cursor: pointer;
+    }
+  }
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+}
