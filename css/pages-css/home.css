@@ -141,6 +141,7 @@ iframe {
       font-family: var(--fonte-Raleway);
       text-align: left;
       color: var(--cor-azul);
+      font-weight: 500;
     }
 
     & p {
