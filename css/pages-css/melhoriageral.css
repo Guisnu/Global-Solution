@@ -32,9 +32,10 @@ main{
     }
 }
 
-#o-que-e-healthtech{
+.text-healthtech-azul{
     background-color: #007fce;
     padding: 30px;
+    line-height: 1.05;
 
     & > .container{
         display: flex;
@@ -46,13 +47,37 @@ main{
         }
     }
 }
-#para-que-serve{
-    padding: 20px;
+.text-healthtech{
+    padding: 30px;
+    line-height: 1.05;
 
     & > .container{
         display: flex;
         flex-direction: column;
         letter-spacing: 1px;
         gap: 10px;
+
+        & h2{
+            color:#007fce;
+        }
+
+        & .img-produtos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 500px;
+            background-image: url(../../img/tec.gif);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+    }
+}
+b{
+    color: #e05555;
+}
+#tratamento{
+    & p{
+        margin-bottom: 20px;
     }
 }
