@@ -2,6 +2,7 @@
 @import url(../components-css/header.css);
 @import url(../components-css/footer.css);
 @import url(../components-css/content-page.css);
+@import url(../components-css/cards.css);
 
 #banner {
   flex-direction: column;
@@ -177,33 +178,7 @@ iframe {
   }
 }
 
-#cards {
-  display: flex;
-  height: 350px;
-  justify-content: center;
-  align-items: center;
-  background-color: #007fce;
-  color: white;
 
-  & .container {
-    display: flex;
-    justify-content: space-around;
-
-    & .card {
-      width: 250px;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-      letter-spacing: 1px;
-      gap: 10px;
-
-      & img {
-        width: 50%;
-      }
-    }
-  }
-}
 
 #quem-somos {
   background-color: #fffefe;
@@ -282,7 +257,175 @@ iframe {
 
 
     & .uls-solução{
-      display: flex;
+      display: flex;<section id="cards">
+      <div class="container" class="text-healthtech-azul">
+        <div class="card">
+          <img src="img/um.png" alt="" />
+          <p>
+            Check-in/out eficiente e em tempo real para profissionais de
+            saúde.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/dois.png" alt="" />
+          <p>
+            Registros detalhados de atividades e prontuários eletrônicos
+            integrados.
+          </p>
+        </div>
+        <div class="card">
+          <img src="img/tres.png" alt="" />
+          <p>Eficiência operacional com redução de atrasos e ausências.</p>
+        </div>
+        <div class="card">
+          <img src="img/quatro.png" alt="" />
+          <p>
+            Garantia de privacidade e transparência, aprimorando a qualidade
+            dos cuidados domiciliares.
+          </p>
+        </div>
+      </div>
+    </section><section id="cards">
+    <div class="container" class="text-healthtech-azul">
+      <div class="card">
+        <img src="img/um.png" alt="" />
+        <p>
+          Check-in/out eficiente e em tempo real para profissionais de
+          saúde.
+        </p>
+      </div>
+      <div class="card">
+        <img src="img/dois.png" alt="" />
+        <p>
+          Registros detalhados de atividades e prontuários eletrônicos
+          integrados.
+        </p>
+      </div>
+      <div class="card">
+        <img src="img/tres.png" alt="" />
+        <p>Eficiência operacional com redução de atrasos e ausências.</p>
+      </div>
+      <div class="card">
+        <img src="img/quatro.png" alt="" />
+        <p>
+          Garantia de privacidade e transparência, aprimorando a qualidade
+          dos cuidados domiciliares.
+        </p>
+      </div>
+    </div>
+  </section><section id="cards">
+  <div class="container" class="text-healthtech-azul">
+    <div class="card">
+      <img src="img/um.png" alt="" />
+      <p>
+        Check-in/out eficiente e em tempo real para profissionais de
+        saúde.
+      </p>
+    </div>
+    <div class="card">
+      <img src="img/dois.png" alt="" />
+      <p>
+        Registros detalhados de atividades e prontuários eletrônicos
+        integrados.
+      </p>
+    </div>
+    <div class="card">
+      <img src="img/tres.png" alt="" />
+      <p>Eficiência operacional com redução de atrasos e ausências.</p>
+    </div>
+    <div class="card">
+      <img src="img/quatro.png" alt="" />
+      <p>
+        Garantia de privacidade e transparência, aprimorando a qualidade
+        dos cuidados domiciliares.
+      </p>
+    </div>
+  </div>
+</section><section id="cards">
+<div class="container" class="text-healthtech-azul">
+  <div class="card">
+    <img src="img/um.png" alt="" />
+    <p>
+      Check-in/out eficiente e em tempo real para profissionais de
+      saúde.
+    </p>
+  </div>
+  <div class="card">
+    <img src="img/dois.png" alt="" />
+    <p>
+      Registros detalhados de atividades e prontuários eletrônicos
+      integrados.
+    </p>
+  </div>
+  <div class="card">
+    <img src="img/tres.png" alt="" />
+    <p>Eficiência operacional com redução de atrasos e ausências.</p>
+  </div>
+  <div class="card">
+    <img src="img/quatro.png" alt="" />
+    <p>
+      Garantia de privacidade e transparência, aprimorando a qualidade
+      dos cuidados domiciliares.
+    </p>
+  </div>
+</div>
+</section><section id="cards">
+<div class="container" class="text-healthtech-azul">
+  <div class="card">
+    <img src="img/um.png" alt="" />
+    <p>
+      Check-in/out eficiente e em tempo real para profissionais de
+      saúde.
+    </p>
+  </div><section id="cards">
+  <div class="container" class="text-healthtech-azul">
+    <div class="card">
+      <img src="img/um.png" alt="" />
+      <p>
+        Check-in/out eficiente e em tempo real para profissionais de
+        saúde.
+      </p>
+    </div>
+    <div class="card">
+      <img src="img/dois.png" alt="" />
+      <p>
+        Registros detalhados de atividades e prontuários eletrônicos
+        integrados.
+      </p>
+    </div>
+    <div class="card">
+      <img src="img/tres.png" alt="" />
+      <p>Eficiência operacional com redução de atrasos e ausências.</p>
+    </div>
+    <div class="card">
+      <img src="img/quatro.png" alt="" />
+      <p>
+        Garantia de privacidade e transparência, aprimorando a qualidade
+        dos cuidados domiciliares.
+      </p>
+    </div>
+  </div>
+</section>
+  <div class="card">
+    <img src="img/dois.png" alt="" />
+    <p>
+      Registros detalhados de atividades e prontuários eletrônicos
+      integrados.
+    </p>
+  </div>
+  <div class="card">
+    <img src="img/tres.png" alt="" />
+    <p>Eficiência operacional com redução de atrasos e ausências.</p>
+  </div>
+  <div class="card">
+    <img src="img/quatro.png" alt="" />
+    <p>
+      Garantia de privacidade e transparência, aprimorando a qualidade
+      dos cuidados domiciliares.
+    </p>
+  </div>
+</div>
+</section>
       flex-direction: column;
       justify-content: center; align-items: left;
       gap: 15px;
