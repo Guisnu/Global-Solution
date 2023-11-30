@@ -1,6 +1,7 @@
 @import url(../index.css);
 @import url(../components-css/header.css);
 @import url(../components-css/footer.css);
+@import url(../components-css/content-page.css);
 
 #banner {
   flex-direction: column;
@@ -53,14 +54,13 @@ iframe {
       line-height: 1.2;
       font-size: 3rem;
       font-family: var(--fonte-Raleway);
-      font-weight: bold;
       text-align: left;
       color: var(--cor-azul);
-
     }
 
     & p {
       font-weight: bold;
+      text-align: left;
     }
 
     & button {
@@ -153,17 +153,17 @@ iframe {
     & button {
       height: 50px;
       width: 300px;
-      background-color: #fbb51b;
+      background-color: var(--cor-escura);
       border: solid 1px whitesmoke;
-      color: #0452bb;
+      color: whitesmoke;
       font-size: 18px;
       letter-spacing: 2px;
       font-weight: bolder;
-      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+      font-family: var(--fonte-Raleway);
       transition: 0.5s;
 
       &:hover {
-        background-color: #ef402d;
+        background-color: whitesmoke;
         color: var(--cor-escura);
         font-weight: bolder;
         cursor: pointer;
@@ -206,7 +206,7 @@ iframe {
 }
 
 #quem-somos {
-  background-color: #f7f2f2;
+  background-color: #fffefe;
   padding: 50px;
 
   & .container {
@@ -244,82 +244,98 @@ iframe {
 
     & .prontuario-content {
       display: flex;
-      align-items: center;
       justify-content: center;
       gap: 50px;
 
       & .Prontuario-text {
         width: 35%;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         text-align: justify;
-        font-weight: bold;
         letter-spacing: 1px;
+        line-height: 1.2;
         color: white;
+        gap: 20px;
+
+        & img{
+          width: 350px;
+          border-radius: 10px;
+        }
+      }
+      & .left{
+        flex-direction: column;
+      }
+    }
+  }
+}
+#solução-oferecida{
+
+  & .container{
+    display: flex;
+    flex-direction: column;
+
+    & > div{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+    & .uls-solução{
+      display: flex;
+      flex-direction: column;
+      justify-content: center; align-items: left;
+      gap: 15px;
+      color: white;
+
+      & ul{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      & h3{
+        font-size: 1.5625rem;
+        color: var(--cor-laranja);
       }
     }
   }
 }
 
-.div-1 {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 1200px;
-  width: 100%;
-  margin-bottom: 20px;
+#funcionalidades-principais{
+  padding-bottom: 0px;
+
+  & .container{
+    margin-bottom: 0px;
+
+    & > div{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+
+      & .text-funcionalidades{
+        display: flex;
+        flex-direction:column;
+        gap: 10px;
+
+        & ul{
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+        }
+        
+        & h3{
+          font-size: 1.5625rem;
+          color: var(--cor-laranja);
+        }
+      }
+    }
+  }
 }
-
-.h1-pg2 {
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 1200px;
-  width: 100%;
-  margin-bottom: 20px;
-
-}
-
-.p-pg2 {
-  text-align: center;
-  margin: 0 auto;
-  padding: 0 20px;
-  max-width: 1200px;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.solucao-oferecida {
-  background-color: #fbb51b;
-  color: #fff;
-  display: flex;
-  flex-direction: column; /* Ajusta para coluna para facilitar o posicionamento do conteúdo */
-  justify-content: center;
-  height: 500px;
-  margin: auto;
-  text-align: center;
-}
-
-.opcoes {
-  flex-direction: column;
-  justify-content: space-between
-  text-align: center;
-}
-
-.opcoes h3 {
-  margin-top: 20px;
-  color: #ef402d;
-
-} & p {
-  margin-top: 5px;
-} 
-
-.chamada {
-  margin-top: 20px;
-  font-size: 1.4rem;
-  color: #0452bb;
-  font-weight: bold;
+#img-funcionalidades{
+  height: 350px;
+  border-radius: 10px;
+  background-image: url(../../img/medicos.gif);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
