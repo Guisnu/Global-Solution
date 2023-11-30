@@ -53,8 +53,10 @@ iframe {
       line-height: 1.2;
       font-size: 3rem;
       font-family: var(--fonte-Raleway);
+      font-weight: bold;
       text-align: left;
       color: var(--cor-azul);
+
     }
 
     & p {
@@ -151,17 +153,17 @@ iframe {
     & button {
       height: 50px;
       width: 300px;
-      background-color: var(--cor-escura);
+      background-color: #fbb51b;
       border: solid 1px whitesmoke;
-      color: whitesmoke;
+      color: #0452bb;
       font-size: 18px;
       letter-spacing: 2px;
       font-weight: bolder;
-      font-family: var(--fonte-Raleway);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
       transition: 0.5s;
 
       &:hover {
-        background-color: whitesmoke;
+        background-color: #ef402d;
         color: var(--cor-escura);
         font-weight: bolder;
         cursor: pointer;
@@ -259,4 +261,65 @@ iframe {
       }
     }
   }
+}
+
+.div-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.h1-pg2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+
+.p-pg2 {
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.solucao-oferecida {
+  background-color: #fbb51b;
+  color: #fff;
+  display: flex;
+  flex-direction: column; /* Ajusta para coluna para facilitar o posicionamento do conteúdo */
+  justify-content: center;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+}
+
+.opcoes {
+  flex-direction: column;
+  justify-content: space-between
+  text-align: center;
+}
+
+.opcoes h3 {
+  margin-top: 20px;
+  color: #ef402d;
+
+} & p {
+  margin-top: 5px;
+} 
+
+.chamada {
+  margin-top: 20px;
+  font-size: 1.4rem;
+  color: #0452bb;
+  font-weight: bold;
 }
