@@ -4,17 +4,17 @@
 @import url(../components-css/content-page.css);
 @import url(../pages-css/prevencaodoenca.css);
 
-.main-img-wrap{
-    height: 180px;
-   display: flex;
-   justify-content: center;
+.main-img-wrap {
+  height: 350px;
+  display: flex;
+  justify-content: center;
 }
 
-
-
-.gif-wrap{
-    background-image: url(../../img/output-onlinegiftools.gif);
-    background-size: contain;
-    width: 100%;
-    height: 200px;
+.gif-wrap {
+  background-image: url(../../img/cientista.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
