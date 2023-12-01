@@ -2,16 +2,29 @@
 footer{
     
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    padding: 4rem;
+    gap: 1rem;
     
     & img{
         width: 250px;
     }
-}
 
+    & form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
 
+        & input {
+            background: transparent;
+            border: none;
+            padding: 4px 8px;
+            border-bottom: 2px solid rgba(14, 14, 14, 1);
+            outline: none;
+        }
 
   .wrapper {
     width: 500px;
@@ -62,4 +75,3 @@ footer{
       transform: rotate(360deg);
     }
   }
-  
