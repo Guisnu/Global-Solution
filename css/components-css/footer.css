@@ -1,13 +1,13 @@
 
 footer{
-    
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 4rem;
     gap: 1rem;
-    
+
     & img{
         width: 250px;
     }
@@ -25,8 +25,9 @@ footer{
             border-bottom: 2px solid rgba(14, 14, 14, 1);
             outline: none;
         }
-
-  .wrapper {
+    }
+}
+.wrapper {
     width: 500px;
     height: 500px;
     position: absolute;
@@ -36,9 +37,9 @@ footer{
     border-radius: 5px;
     background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
     overflow: hidden;
-  }
-  
-  .footer {
+}
+
+.footer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -46,15 +47,15 @@ footer{
     background: #333;
     color: white;
     text-align: center;
-  }
-  
-  .wave-container {
+}
+
+.wave-container {
     position: relative;
     height: 100px; /* Ajuste a altura conforme necessário */
     overflow: hidden;
-  }
-  
-  .wave {
+}
+
+.wave {
     width: 1000px;
     height: 1025px;
     position: absolute;
@@ -65,13 +66,13 @@ footer{
     border-radius: 35%;
     background: rgba(255, 255, 255, 0.75);
     animation: wave 15s infinite linear;
-  }
-  
-  @keyframes wave {
+}
+
+@keyframes wave {
     0% {
-      transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     100% {
-      transform: rotate(360deg);
+        transform: rotate(360deg);
     }
-  }
+}
