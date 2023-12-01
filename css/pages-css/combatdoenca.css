@@ -9,10 +9,6 @@
     flex-direction: row;
 }
 
-.container h2{
-    
-}
-
 .container:not(:first-child) h2{
     margin-top: 10px;
 }
