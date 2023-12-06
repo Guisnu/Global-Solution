@@ -311,12 +311,12 @@ iframe {
   }
 }
 #img-funcionalidades{
-  height: 350px;
-  border-radius: 10px;
-  background-image: url(../../img/medicos.gif);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  & img{
+    aspect-ratio: 15/5;
+    object-fit: cover;
+    object-position: top;
+  }
+
 }
  b{
   color: #dc143c;
